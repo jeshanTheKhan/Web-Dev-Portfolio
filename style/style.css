@@ -102,6 +102,45 @@ font-size: 45px;
   background-color:#FFF8F3 ;
 }
 .about{
+  border-radius: 10px;
+  text-align: center;
   padding: 130px 150px;
   margin: 20px 230px 10px 230px;
+  
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.item{
+  
+  font-size:20px ;
+  
+}
+.decsription{
+  font-weight: 700;
+  
+}
+/* Skill */
+.skiils
+{
+  border-radius: 10px;
+  margin: 20px 230px 10px 230px;
+}
+.list-skill{
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.skill{
+  margin: 0px 10px;
+  padding: 20px 20px;
+  background-color: #FFF8F3;
+  border-radius: 20px;
+}
+.skill > img{
+  height: 70px;
+  
 }
